@@ -37,9 +37,9 @@ function App() {
 
             <nav className="flex space-x-1 pb-2">
               {[
-                { id: 'dashboard', label: 'ДЭШБОРД', icon: Activity },
-                { id: 'analytics', label: 'АНАЛИТИКА', icon: BarChart3 },
-                { id: 'service', label: 'СЕРВИС', icon: Settings },
+                { id: 'dashboard', label: 'DASHBOARD', icon: Activity },
+                { id: 'analytics', label: 'ANALYTICS', icon: BarChart3 },
+                { id: 'service', label: 'SERVICE', icon: Settings },
               ].map((tab) => (
                 <button
                   key={tab.id}
